@@ -50,7 +50,7 @@
     display: inline-flex;
     min-height: 240px;
     overflow: hidden;
-    background: url(/images/image-product-desktop.jpg);
+    background: url(images/image-product-desktop.jpg);
     background-position: 50% 30%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -99,7 +99,7 @@ h1,
 }
 
 .card-body .btn:before {
-    content: url('/images/icon-cart.svg');
+    content: url('images/icon-cart.svg');
     margin-right: .5rem;
     position: relative;
     top: 3px;
