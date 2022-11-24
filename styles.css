@@ -37,7 +37,7 @@
 header p {
     text-transform: uppercase;
     letter-spacing: .3rem;
-
+    color:var(--dark-grayish-blue);
     font-size: 90%;
 }
 
@@ -126,8 +126,11 @@ margin-right:1rem;
     color: white;
     border-radius: .25rem;
     text-align: center;
+    text-decoration: none;
 }
-
+.card-body .btn:hover{
+    filter: brightness(65%);
+} 
 .card-body .btn:before {
     content: url('images/icon-cart.svg');
     margin-right: .5rem;
